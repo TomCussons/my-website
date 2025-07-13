@@ -100,26 +100,3 @@ footer {
   font-size: 1.0rem; /* or try 24px */
 }
 
-   .download-cv-emoji {
-    display: inline-block;
-    padding: 12px 20px;
-    background-color: #1d4ed8; /* blue-700 */
-    color: #ffffff;
-    font-size: 16px;
-    font-weight: 600;
-    text-decoration: none;
-    border-radius: 10px;
-    transition: background-color 0.3s ease, transform 0.2s ease;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  }
-
-  .download-cv-emoji:hover {
-    background-color: #2563eb; /* blue-600 */
-    transform: translateY(-2px);
-    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
-  }
-
-  .download-cv-emoji:active {
-    transform: translateY(0);
-    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1);
-  }
