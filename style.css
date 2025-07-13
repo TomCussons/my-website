@@ -68,7 +68,7 @@ nav a {
   border-radius: 50%;
 }
 
-.about-preview, .portfolio-preview,  .certifications-preview, .coding-preview, .contact-cta {
+.about-preview, .portfolio-preview,  .certifications-preview, .code_exp-preview, .contact-cta {
   padding: 3rem 2rem;
   text-align: center;
   background: #f1f1f1;
