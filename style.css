@@ -9,6 +9,7 @@ body {
   line-height: 1.6;
   background: #e6f0ff;
   color: #333;
+  width: 100%;
 }
 
 
@@ -42,6 +43,7 @@ nav a {
   justify-content: space-between;
   padding: 4rem 2rem;
   background: #e6f0ff;
+  width: 100%;
 }
 
 .hero-text h1 {
@@ -60,7 +62,8 @@ nav a {
 }
 
 .hero-image img {
-  max-width: 300px;
+	max-width: 960px;
+	width: 100%;
   border-radius: 50%;
 }
 
@@ -96,3 +99,22 @@ footer {
   font-size: 1.0rem; /* or try 24px */
 }
 
+/* Prevent header/nav from overflowing */
+header {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+/* Make nav items wrap and fit smaller screens */
+nav ul {
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+/* Ensure nav doesn't cause horizontal scroll */
+nav {
+  flex-wrap: wrap;
+  padding: 0 1rem;
+  width
